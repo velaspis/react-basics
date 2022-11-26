@@ -1,0 +1,144 @@
+body {
+  background-color: #fffef0;
+  font-family: "Markazi Text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+article > h1 {
+  animation: blinker 1.5s linear infinite;
+  color: #fffef0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.promo-banner {
+  background-image: url("./plant_bg.png");
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.promo-banner p {
+  color: #fffef0;
+  font-size: 1.5rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10rem;
+}
+
+nav ul {
+  padding-inline-start: 0px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  background-color: #26877f;
+  height: 5vh;
+  align-items: center;
+  border-radius: 10px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #fffef0;
+  font-size: 1.25rem;
+}
+
+nav ul a:hover {
+  color: #b8e2b1;
+}
+
+nav li {
+  display: inline-block;
+  flex: 1;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  border-radius: 10px;
+  text-align: justify;
+  margin: 0.5rem;
+  background-color: #6a9c91;
+}
+
+article img {
+  width: 15rem;
+  height: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article h2 {
+  margin-left: 5%;
+}
+
+.section-2 p {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000000;
+  font-size: 1.25rem;
+}
+
+.section-2 li {
+  font-size: 1.25rem;
+}
+
+.section-2 article:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+footer {
+  background-color: #26877f;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+footer img {
+  height: 5rem;
+  margin: 1rem;
+}
+footer div {
+  flex: 1;
+}
+
+footer p {
+  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.copyright p {
+  margin-right: 5%;
+  color: #fffef0;
+  font-size: 1.25rem;
+}
